@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.container {
+  width: 80%;
+  background-color: #25316D;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  display: flex;
+  padding: 60px 50px;
+  align-items: center;
+}
+.gambar {
+  width: 40%;
+}
+.gambar img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.biodata {
+  width: 50%;
+  margin: 0px 30px;
+  color: #FEF5AC;
+}
+.biodata h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.biodata h2 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.biodata h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.biodata p {
+  text-align: justify;
+}
+.sosmed {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.sosmed a {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  margin: 5px 0px;
+  background-color: #97D2EC;
+  color: #25316D;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 5px;
+  }
+  .container {
+    flex-direction: column;
+    background-color: #000;
+  }
+  .gambar, .biodata, .sosmed {
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Anjay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+        <div class="logo">
+          <h1>Devastro🚀</h1>
+        </div>
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Team</a>
+          <a href="">Contact</a>
+        </div>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="container banner-content">
+      <div class="banner-text">
+        <h1>Devastro🚀</h1>
+        <h3>IT Club</h3>
+        <h5>SMK Negeri 6 Jakarta</h5>
+      </div>
+      <div class="banner-img">
+        <img src="img/banner.svg" alt="">
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="team container">
+      <div class="team-item">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" alt="">
+        <h3>Competitive</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="team-item">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" alt="">
+        <h3>Competitive</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="team-item">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" alt="">
+        <h3>Competitive</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="team-item">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" alt="">
+        <h3>Competitive</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dumy">
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function() {
+  header.classList.toggle("scroll", window.scrollY > 0);
+})
+
+// const banner = document.querySelector(".banner");
+// window.addEventListener("scroll", function () {
+//   header.classList.toggle("sticky", window.scrollY > 0);
+//   var value = window.scrollY;
+//   banner.style.top = value * 0.3 + "px";
+// });
+

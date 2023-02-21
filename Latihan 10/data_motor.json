@@ -1,0 +1,27 @@
+[
+  {
+    "merk": "Yamaha",
+    "tipe": "Nmax",
+    "cc": 150
+  },
+  {
+    "merk": "Yamaha",
+    "tipe": "Aerox",
+    "cc": 150
+  },
+  {
+    "merk": "Kawasaki",
+    "tipe": "Ninja",
+    "cc": 300
+  },
+  {
+    "merk": "Honda",
+    "tipe": "ADV",
+    "cc": 160
+  },
+  {
+    "merk": "Honda",
+    "tipe": "Supra",
+    "cc": 500
+  }
+]
